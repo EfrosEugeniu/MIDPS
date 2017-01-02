@@ -1,0 +1,56 @@
+#div_1
+{
+  background-color: #ff0;
+ 
+ font-size: 9pt;
+  font-style:italic;
+
+}
+
+
+h2
+{
+  color: #00ff00;
+
+  font-size: 18pt;
+
+  font-weight: bold;
+}
+
+
+
+img
+{
+float: left;
+
+padding-right: 11px;
+
+width: 200px;
+height: 300px;
+}
+
+#form2{
+  background-color: #ff0;
+
+  font-size: 9pt;
+
+  font-style: italic;
+
+  width: 333px;
+padding: 11px;
+
+margin: 11px;
+
+border: 1px solid #000;
+
+}
+
+
+
+.myClass{
+  color: #000080;
+
+  font-size: 22pt;
+
+  font-weight: bold;
+}
