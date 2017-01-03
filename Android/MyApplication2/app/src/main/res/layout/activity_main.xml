@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="listsorfe.ru.myapplication.MainActivity">
+
+    <Button
+        android:gravity="top"
+        android:text="START"
+        android:textSize="40dp"
+        android:textColor="#522252"
+        android:layout_width="161dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:onClick="onClick"/>
+
+    <TextView
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:text="sorfe@list.ru"
+        android:textSize="20dp"
+        android:textColor="#678852"
+        android:layout_row="2"
+        android:layout_column="4" />
+
+</GridLayout>
